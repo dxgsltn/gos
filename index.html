@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gusha Sultan</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body id="top">
+  <header class="header" data-header>
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">Gusha<span class="span">.</span></a>
+      </h1>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <p>search</p>
+        </button>
+        <button class="btn btn-hover">Book</button>
+        <button class="btn btn-hover" id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+          <p>Dark Mode</p>
+        </button>
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="search-container" data-search-container>
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <p>search</p>
+      </button>
+    </div>
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+  </div>
+  <main>
+    <article>
+      <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle">Lorem ipsum</p>
+            <h2 class="h1 hero-title">Lorem ipsum dolor sit, amet consectetur</h2>
+            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nisi veritatis recusandae dolores.</p>
+            <button class="btn">Next</button>
+          </div>
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100 hero-img-bg">
+            <img src="./assets/images/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+        </div>
+      </section>
+      <section class="section section-divider white promo">
+        <div class="container">
+          <ul class="promo-list has-scrollbar">
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Lorem ipsum</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium, vitae quia architecto dolore obcaecati!
+                </p>
+                <img src="./assets/images/promo-1.png" width="300" height="300" loading="lazy" alt="Maxican Pizza"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Lorem ipsum</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                </p>
+                <img src="./assets/images/promo-2.png" width="300" height="300" loading="lazy" alt="Soft Drinks"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Lorem ipsum</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                </p>
+                <img src="./assets/images/promo-3.png" width="300" height="300" loading="lazy" alt="French Fry"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Lorem ipsum</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                </p>
+                <img src="./assets/images/promo-4.png" width="300" height="300" loading="lazy" alt="Burger Kingo"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Lorem ipsum</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                </p>
+                <img src="./assets/images/promo-5.png" width="300" height="300" loading="lazy" alt="Chicken Masala"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+          <div class="about-banner">
+            <img src="./assets/images/about-banner.png" width="509" height="459" loading="lazy" alt="Burger with Drinks"
+              class="w-100 about-img">
+            <img src="./assets/images/sale-shape-red.png" width="216" height="226" alt="get up to 50% off now"
+              class="abs-img scale-up-anim">
+          </div>
+          <div class="about-content">
+            <h2 class="h2 section-title">
+              Lorem ipsum dolor sit amet.
+              <span class="span">lorem</span>
+            </h2>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quo dicta et saepe sed laboriosam porro aliquam perferendis at! 
+              Labore numquam, nemo provident velit illum voluptate vel ipsum odit!
+            </p>
+            <ul class="about-list">
+              <li class="about-item">
+                <p>checkmark-outline</p>
+                <span class="span">Lorem ipsum dolor.</span>
+              </li>
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Lorem ipsum dolor.</span>
+              </li>
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Lorem ipsum dolor.</span>
+              </li>
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Lorem ipsum dolor.</span>
+              </li>
+            </ul>
+            <button class="btn btn-hover">Lorem ipsum dolor.</button>
+          </div>
+        </div>
+      </section>
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+          <p class="section-subtitle">Lorem ipsum.</p>
+          <h2 class="h2 section-title">
+            Our Delicious <span class="span">Lorem ipsum.</span>
+          </h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+          </p>
+          <ul class="fiter-list">
+            <li>
+              <button class="filter-btn  active">All</button>
+            </li>
+            <li>
+              <button class="filter-btn">All</button>
+            </li>
+            <li>
+              <button class="filter-btn">All</button>
+            </li>
+            <li>
+              <button class="filter-btn">All</button>
+            </li>
+            <li>
+              <button class="filter-btn">All</button>
+            </li>
+          </ul>
+          <ul class="food-menu-list">
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-1.png" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+                  <div class="badge">-15%</div>
+                  <button class="btn food-menu-btn">Lorem ipsum.</button>
+                </div>
+                <div class="wrapper">
+                  <p class="category">Lorem.</p>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+                <h3 class="h3 card-title">Lorem ipsum dolor.</h3>
+                <div class="price-wrapper">
+                  <p class="price-text">Price:</p>
+                  <data class="price">$49.00</data>
+                  <del class="del" value="69.00">$69.00</del>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-2.png" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+                  <div class="badge">-10%</div>
+                  <button class="btn food-menu-btn">Lorem ipsum.</button>
+                </div>
+                <div class="wrapper">
+                  <p class="category">Lorem</p>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+                <h3 class="h3 card-title">Lorem ipsum dolor.</h3>
+                <div class="price-wrapper">
+                  <p class="price-text">Price:</p>
+                  <data class="price" value="29.00">$29.00</data>
+                  <del class="del">$39.00</del>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+                  <div class="badge">-25%</div>
+                  <button class="btn food-menu-btn">Lorem ipsum.</button>
+                </div>
+                <div class="wrapper">
+                  <p class="category">Lorem</p>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+                <h3 class="h3 card-title">Lorem ipsum dolor.</h3>
+                <div class="price-wrapper">
+                  <p class="price-text">Price:</p>
+                  <data class="price" value="49.00">$49.00</data>
+                  <del class="del">$69.00</del>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-4.png" width="300" height="300" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100">
+                  <div class="badge">-20%</div>
+                  <button class="btn food-menu-btn">Lorem ipsum.</button>
+                </div>
+                <div class="wrapper">
+                  <p class="category">Lorem.</p>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+                <h3 class="h3 card-title">Lorem Ipsum Dolor.</h3>
+                <div class="price-wrapper">
+                  <p class="price-text">Price:</p>
+                  <data class="price" value="59.00 ">$59.00</data>
+                  <del class="del">$69.00</del>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-5.png" width="300" height="300" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100">
+                  <div class="badge">-5%</div>
+                  <button class="btn food-menu-btn">Lorem Ipsum.</button>
+                </div>
+                <div class="wrapper">
+                  <p class="category">Lorem.</p>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+                <h3 class="h3 card-title">Lorem ipsum dolor.</h3>
+                <div class="price-wrapper">
+                  <p class="price-text">Price:</p>
+                  <data class="price" value="49.00">$49.00</data>
+                  <del class="del">$69.00</del>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-6.png" width="300" height="300" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100">
+                  <div class="badge">-15%</div>
+                  <button class="btn food-menu-btn">Lorem ipsum.</button>
+                </div>
+                <div class="wrapper">
+                  <p class="category">Lorem.</p>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+                <h3 class="h3 card-title">Lorem ipsum dolor.</h3>
+                <div class="price-wrapper">
+                  <p class="price-text">Price:</p>
+                  <data class="price" value="49.00">$49.00</data>
+                  <del class="del">$69.00</del>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+          <div class="cta-content">
+            <h2 class="h2 section-title">
+              Lorem ipsum dolor sit amet.
+              <span class="span">Lorem ipsum!</span>
+            </h2>
+            <p class="section-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus praesentium, cupiditate quia itaque impedit inventore blanditiis,
+              odit consequatur dignissimos hic, ex nisi distinctio minima tempora fuga repellendus similique ullam cumque.
+            </p>
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 cta-img">
+            <img src="./assets/images/sale-shape.png" width="216" height="226" loading="lazy"
+              alt="get up to 50% off now" class="abs-img scale-up-anim">
+          </figure>
+        </div>
+      </section>
+      <section class="section section-divider gray delivery">
+        <div class="container">
+          <div class="delivery-content">
+            <h2 class="h2 section-title">
+              Lorem ipsum dolor <span class="span">sit amet</span> consectetur.
+            </h2>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quae quod maxime inventore ut velit expedita,
+              fugiat nihil officiis, commodi odit aliquam. Optio voluptates temporibus, maxime ex nemo nihil sapiente.
+            </p>
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+        </div>
+      </section>
+      <section class="section section-divider white testi">
+        <div class="container">
+          <p class="section-subtitle">Lorem </p>
+          <h2 class="h2 section-title">
+            Lorem ipsum <span class="span">dolor.</span>
+          </h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+          </p>
+          <ul class="testi-list has-scrollbar">
+            <li class="testi-item">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+                  <div>
+                    <h3 class="h4 testi-name">Gusha Sultan</h3>
+                    <p class="testi-title">CEO</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+            <li class="testi-item">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+                  <div>
+                    <h3 class="h4 testi-name">Azina Aitbay</h3>
+                    <p class="testi-title">CEO</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+            <li class="testi-item">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+                  <div>
+                    <h3 class="h4 testi-name">Ummida Maden</h3>
+                    <p class="testi-title">CEO</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-divider gray banner">
+        <div class="container">
+          <ul class="banner-list">
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+                <img src="./assets/images/banner-1.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+                <div class="banner-item-content">
+                  <p class="banner-subtitle">50% Off Now!</p>
+                  <h3 class="banner-title">Lorem ipsum dolor sit amet.</h3>
+                  <p class="banner-text">Lorem ipsum dolor sit amet.</p>
+                  <button class="btn">Lorem ipsum.</button>
+                </div>
+              </div>
+            </li>
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+                <img src="./assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+                  class="banner-img">
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Lorem ipsum</h3>
+                  <p class="banner-text">50% off Now</p>
+                  <button class="btn">Lorem ipsum.</button>
+                </div>
+              </div>
+            </li>
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+                <img src="./assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+                  class="banner-img">
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Lorem ipsum.</h3>
+                  <p class="banner-text">50% off Now</p>
+                  <button class="btn">Lorem ipsum.</button>
+                </div>
+              </div>
+            </li>
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+                <img src="./assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Lorem ipsum dolor.</h3>
+                  <p class="banner-text">Sale off 50%</p>
+                  <button class="btn">Lorem ipsum.</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-divider white blog" id="blog">
+        <div class="container">
+          <p class="section-subtitle">Lorem ipsum dolor.</p>
+          <h2 class="h2 section-title">
+            Lorem ipsum dolor <span class="span">sit.</span>
+          </h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+          </p>
+          <div class="tabs">
+            <ul class="tab-list">
+              <li class="tab-item active" data-tab="tab-1">Tab 1</li>
+              <li class="tab-item" data-tab="tab-2">Tab 2</li>
+              <li class="tab-item" data-tab="tab-3">Tab 3</li>
+            </ul>
+          
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane active">
+                <ul class="blog-list">
+                  <li>
+                    <div class="blog-card">
+                      <div class="card-banner">
+                        <img src="./assets/images/blog-1.jpg" width="600" height="390" loading="lazy"
+                          alt="What Do You Think About Cheese Pizza Recipes?" class="w-100">
+                        <div class="badge">Lorem</div>
+                      </div>
+                      <div class="card-content">
+                        <div class="card-meta-wrapper">
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <time class="meta-info" datetime="2022-01-01">Jan 01 2024</time>
+                          </a>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <p class="meta-info">Gusha Sultan</p>
+                          </a>
+                        </div>
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Lorem Ipsum dolor sit amet?</a>
+                        </h3>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                        </p>
+                        <a href="#" class="btn-link">
+                          <span>Read More</span>
+                          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div id="tab-2" class="tab-pane">
+                <ul class="blog-list">
+                  <li>
+                    <div class="blog-card">
+                      <div class="card-banner">
+                        <img src="./assets/images/blog-2.jpg" width="600" height="390" loading="lazy"
+                          alt="Making Chicken Strips With New Delicious Ingridents." class="w-100">
+                        <div class="badge">Lorem</div>
+                      </div>
+                      <div class="card-content">
+                        <div class="card-meta-wrapper">
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <time class="meta-info" datetime="2022-01-01">Jan 01 2024</time>
+                          </a>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <p class="meta-info">Azina Aitbay</p>
+                          </a>
+                        </div>
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Lorem Ipsum dolor sit amet consectetur adipisicing elit.</a>
+                        </h3>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                        </p>
+                        <a href="#" class="btn-link">
+                          <span>Read More</span>
+                          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div id="tab-3" class="tab-pane">
+                <ul class="blog-list">
+                  <li>
+                    <div class="blog-card">
+                      <div class="card-banner">
+                        <img src="./assets/images/blog-3.jpg" width="600" height="390" loading="lazy"
+                          alt="Innovative Hot Chessyraw Pasta Make Creator Fact." class="w-100">
+                        <div class="badge">Chicken</div>
+                      </div>
+                      <div class="card-content">
+                        <div class="card-meta-wrapper">
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <time class="meta-info" datetime="2022-01-01">Jan 01 2024</time>
+                          </a>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <p class="meta-info">Azina Aitbay</p>
+                          </a>
+                        </div>
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Lorem ipsum dolor sit amet consectetur.</a>
+                        </h3>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+                        </p>
+                        <a href="#" class="btn-link">
+                          <span>Lorem ipsum.</span>
+                          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="" class="logo">Gusha.<span class="span">.</span></a>
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum mollitia architecto, non error impedit natus.
+          </p>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+          <li>
+            <p class="footer-list-item">+7 (706) 602-0763</p>
+          </li>
+          <li>
+            <p class="footer-list-item">Info@YourMail.com</p>
+          </li>
+          <li>
+            <address class="footer-list-item">154 Pushkin Street, Taraz, 080000</address>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+          <li>
+            <p class="footer-list-item">Monday-Friday: 08:00-22:00</p>
+          </li>
+          <li>
+            <p class="footer-list-item">Tuesday 4PM: Till Mid Night</p>
+          </li>
+          <li>
+            <p class="footer-list-item">Saturday: 10:00-16:00</p>
+          </li>
+        </ul>
+        <form action="" class="footer-form">
+          <p class="footer-list-title">Book a Table</p>
+          <div class="input-wrapper">
+            <input type="text" name="full_name" required placeholder="Your Name" aria-label="Your Name"
+              class="input-field">
+            <input type="email" name="email_address" required placeholder="Email" aria-label="Email"
+              class="input-field">
+          </div>
+          <div class="input-wrapper">
+            <select name="total_person" aria-label="Total person" class="input-field">
+              <option value="person">Person</option>
+              <option value="2 person">2 Person</option>
+              <option value="3 person">3 Person</option>
+              <option value="4 person">4 Person</option>
+              <option value="5 person">5 Person</option>
+            </select>
+            <input type="date" name="booking_date" aria-label="Reservation date" class="input-field">
+          </div>
+          <textarea name="message" required placeholder="Message" aria-label="Message" class="input-field"></textarea>
+          <button id="open-modal">Book</button>
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close-button">&times;</span>
+              <p>This is a modal window</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy;<a href="#" class="copyright-link"></a> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+  <script src="./assets/js/script.js" defer></script>
+</body>
+</html>
